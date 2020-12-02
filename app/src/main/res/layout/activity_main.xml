@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/userlist"
+        android:layout_width="match_parent"
+        android:layout_height="550dp" >
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="3"
+            android:stepSize="3" />
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4"
+            android:stepSize="4"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="5"
+            android:stepSize="5"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4"
+            android:stepSize="4"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="3"
+            android:stepSize="3"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4"
+            android:stepSize="4"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="5"
+            android:stepSize="5"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="3"
+            android:stepSize="3"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="3"
+            android:stepSize="3"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4"
+            android:stepSize="4"/>
+    </ListView>
+
+    <TextView
+        android:id="@+id/inputString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Videos"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+</LinearLayout>
